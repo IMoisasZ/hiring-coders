@@ -1,0 +1,36 @@
+h1{
+    color: rgb(243, 6, 45);
+    text-decoration: underline;
+    text-align: center;
+    font-size: 6rem;
+}
+
+h1:hover{
+    background-color: black;
+    zoom: 120%;
+}
+
+p{
+    font-weight: 800;
+    font-family: monospace;
+    font-size: 2rem;
+    text-align: justify;
+}
+
+p:hover{
+    zoom: 120%;
+    color: rgb(197, 238, 16);
+    background-color: black;    
+}
+
+.ivy-ivy{
+    display: inline-flex;
+}
+
+span{
+    font-weight: 800;
+}
+
+img{
+    width: 100px;
+}

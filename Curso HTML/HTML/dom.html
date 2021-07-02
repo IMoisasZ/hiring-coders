@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D O M</title>
+</head>
+<body>
+    <header role="banner">
+        <nav role="navigation" aria-level="main navigation">
+            <ul role="menu">
+                <li><a href="#" role="menuitem">Home</li></a>
+                <li><a href="#" role="menuitem">Quem Somos</li></a>
+                <li><a href="#" role="menuitem">Contato</li></a>
+                <li><a href="#" role="menuitem">Conteúdos</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <main role="main">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ex eaque non labore eligendi. Hic, cumque itaque. Rem exercitationem aliquid quisquam a odio, beatae perspiciatis debitis atque ducimus dolores provident.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ex eaque non labore eligendi. Hic, cumque itaque. Rem exercitationem aliquid quisquam a odio, beatae perspiciatis debitis atque ducimus dolores provident.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ex eaque non labore eligendi. Hic, cumque itaque. Rem exercitationem aliquid quisquam a odio, beatae perspiciatis debitis atque ducimus dolores provident.</p>
+
+        <p lang="en">James Joule played the major role in establishing the conservation of energy, or the first law of thermodynamics, as a universal, all-pervasive principle of physics. He was an experimentalist par excellence and his place in the development of thermodynamics is unarguable. This article discusses Joule's life and scientific work culminating in the 1850 paper, where he presented his detailed measurements of the mechanical equivalent of heat using his famous paddle-wheel apparatus. Joule's long series of experiments in the 1840s leading to his realisation that the conservation of energy was probably of universal validity is discussed in context with the work of other pioneers, notably Sadi Carnot, who effectively formulated the principle of the second law of thermodynamics a quarter of a century before the first law was accepted. The story of Joule's work is a story of an uphill struggle against a critical scientific establishment unwilling to accept the mounting evidence until it was impossible to ignore. His difficulties in attracting funding and publishing in reputable journals despite the quality of his work will resonate with many young scientists and engineers of the present day. This commentary was written to celebrate the 350th anniversary of the journal</p>
+        <form action="#" method="post">
+            <label for="">Email</label>
+            <input type="email">
+
+            <label for="">Interesses</label>
+
+            <input type="radio" name="interesse" value="Vendas">
+            <label for="s">Vendas</label>
+
+            <input type="radio" name="interesse" value="Marketing">
+            <label for="m">Marketing</label>
+
+            <input type="radio" name="interesse" value="Programação">
+            <label for="l">Programação</label>
+
+            <input type="submit" value="inscrever">
+        </form>
+
+        <button aria-label="Acesse o site da marvel para mais informações" aria-labelledby="bsite">Saber mais</button>
+
+        <p id="bsite">Site do baby yoda</p>
+
+
+        <table summary="O numero de trabalhadores e ano de fundação de algumas
+        empresas de tecnologicas">
+
+            <caption>Tabela 1: Informação sobre as empresas</caption>
+
+            <thead>
+                <tr>
+                    <th abbr="Empresa" scope="col">Nome da Empresa</th>
+                    <th abbr="Trabalhadores" scope="col">Numero de Trabalhadores</th>
+                    <th abbr="Fundação" scope="col">Data de Fundação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Apple, Inc.</th>
+                    <td>98000</td>
+                    <td>1876</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Google, Inc.</th>
+                    <td>55000</td>
+                    <td>1997</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <img src="https://poltronanerd.com.br/wp-content/uploads/2020/04/
+        baby-yoda.jpg" alt="Babby Yoda" title="Baby Yoda" aria-labelledby="description-babyyoda"/>
+
+        <p id="description-babyyoda">Ele é um membro pequeno da mesma especie alienigena
+            sem nome dos personagens de Star Wars Yoda e Yaddle com quem ele compartilha
+            uma forte habilidade na força.
+        </p>
+
+        <p id="texto1">Ele é um membro pequeno da mesma especie alienigena
+            sem nome dos personagens de Star Wars Yoda e Yaddle com quem ele compartilha
+            uma forte habilidade na força.
+        </p>
+
+        <button id="botao1" onclick="atualizacao()">Atualização de texto</button>
+
+        <script type="text/javascript">
+
+            var paragrafo = document.getElementById('description-babyyoda')
+
+            paragrafo.style.color = 'blue'
+
+            paragrafo.innerText = 'Texto mudou'
+
+            function atualizacao(){
+                var texto1 = document.getElementById('texto1')
+
+                texto1.innerText = 'Star Wars'
+            }
+
+        </script>
+    </main>
+
+    <footer role="contentinfo">
+        &copy; 2020 Gama Academy
+    </footer>
+</body>
+</html
