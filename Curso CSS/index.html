@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS</title>
+    <title>CSS Aulas 1 a Aula 8</title>
     <style>
         .parent-container{
             height: 200px;
@@ -117,6 +117,27 @@
             flex-basis: 300px;
             flex-shrink: 2;
         }
+
+        .my-div-seletor{
+            color: red;
+        }
+
+        #my-input{
+            background-color: dodgerblue;
+        }
+
+        #my-input:hover{
+            background-color: green;
+        }
+
+        span[gama-academy]{
+            color: pink;
+        }
+        
+        .my-div-seletor::first-letter{
+            font-size: 30px;
+        }
+
     </style>
 </head>
 <body>
@@ -186,5 +207,12 @@
             2
         </div>
     </div>
+
+    <!-- seletores -->
+    <div class="my-div-seletor">
+        ola mundo!
+    </div>
+    <input type="text" name="" id="my-input">
+    <span gama-academy>Gama Academy</span>
 </body>
 </html>
