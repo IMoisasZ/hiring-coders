@@ -1,0 +1,58 @@
+const livros = [
+    {
+        id: 1,
+        nome: "Digital Minimalism",
+        autor: "Cal Newport",
+        categoria:"Produtividade e estilo de vida",
+        paginas:254,
+        recomenda:false,
+        leu:false,
+    },
+    {
+        id: 2,
+        nome: "Javascript",
+        autor: "Josef Climber",
+        categoria:"Aprender é dificil",
+        paginas:120,
+        recomenda:true,
+        leu:false,
+    },
+    {
+        id: 3,
+        nome: "Node js",
+        autor: "Moisas",
+        categoria:"Aprender é dificil",
+        paginas:280,
+        recomenda:true,
+        leu:false,
+    },
+    {
+        id: 4,
+        nome: "JAVA",
+        autor: "Carlos Tosin",
+        categoria:"Outro nivel",
+        paginas:600,
+        recomenda:false,
+        leu:true,
+    },
+    {
+        id: 5,
+        nome: "C#",
+        autor: "Sei não",
+        categoria:"Outro nivel",
+        paginas:254,
+        recomenda:false,
+        leu:false,
+    },
+    {
+        id: 6,
+        nome: "React",
+        autor: "Ivy",
+        categoria:"Meu sonho",
+        paginas:400,
+        recomenda:true,
+        leu:true,
+    },
+]
+
+module.exports = livros
