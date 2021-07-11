@@ -7,14 +7,13 @@ var funcionarios = [{
     },
     {
         nome: 'Moisas',
-        sobrenome: 'Barbosa',
-        dataNascimento: new Date('15/06/2017')
+        sobrenome: 'Santos',
+        dataNascimento: new Date()
     }
 ];
-function tratarFuncinarios(functionarios) {
-    for (var _i = 0, functionarios_1 = functionarios; _i < functionarios_1.length; _i++) {
-        var funcionario = functionarios_1[_i];
+function tratarFuncinarios(funcionarios) {
+    for (var _i = 0, funcionarios_1 = funcionarios; _i < funcionarios_1.length; _i++) {
+        var funcionario = funcionarios_1[_i];
         console.log('Nome do funcionario: ', funcionario.nome);
     }
 }
-tratarFuncinarios()

@@ -1,0 +1,2 @@
+// transpilar typecript es5 por ser utilizado por todos navegadores
+// se usar o es6 em diante pode ser que varios navegadores não ayualizados não rodem o seu projeto
