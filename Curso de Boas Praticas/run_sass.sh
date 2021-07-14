@@ -1,1 +1,1 @@
-scss --watch src/assets/sass/style.scss:src/css/style.css
+sass --watch src/assets/sass/style.scss:src/css/style.css

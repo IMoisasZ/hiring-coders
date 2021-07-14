@@ -1,14 +1,15 @@
-import EstrelaMorte from '../../../assets/images/elements/estrela_morte.png';
+import Planet from '../../../assets/images/elements/planet.png'
+
 let footer = `
-    <div>
-        <p>
-            Star wars - este é um exemplo criado para os alunos Gama Academy
-            Modulo de boas práticas 
-        </p>
-
-        <img src="${EstrelaMorte}" alt="Estrela da morte" width="auto" heigth="180px">
-
-    </div>
+<div class="footer-contain">
+    <p>
+        Star wars  -  este é um exemplo criado para os Alunos Gama Academy</br>
+        Módulo de boas práticas.
+    </p>
+    <a href="#section-one">
+        <img src="${Planet}" alt="planet">
+    </a>
+</div>
 `
 
-export default footer
+export default footer;

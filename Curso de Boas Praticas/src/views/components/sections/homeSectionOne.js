@@ -1,11 +1,15 @@
-import Logo from '../../../assets/images/logo/Logo-Amarelo-Star-Wars-PNG-1280x720.png';
-import ImgSectionOne from '../../../assets/images/background/quadro-20-x-30-darth-vader-decoracao.jpg';
+import Logo from '../../../assets/images/logo/logo.png';
+import backgroundOne from '../../../assets/images/background/bg1.jpg'
+
 let HomeSectionOne = `
-    <section class="section background--one" style=background-image:url(${ImgSectionOne})>
-        <div class="block-section--one">
-            <h1>CLIQUE NO BABY YODA ELE TE MOSTRARÁ O CAMINHO</h1>
-            <img src =${Logo} alt="logo star wars" width="300px" heigth="auto"/> 
-        </div    
-    </section>
+<section id="section-one" class="section background--one" style="background-image: url(${backgroundOne})">
+    <div>
+        <div class="container block-section--one">
+            <h1>CLIQUE NO BABY YODA, ELE TE MOSTRARÁ O CAMINHO</h1>
+            <img src=${Logo} alt="Logo Start Wars" width="300px" heigth="auto">
+        </div>  
+    </div>
+</section>
 `
+
 export default HomeSectionOne

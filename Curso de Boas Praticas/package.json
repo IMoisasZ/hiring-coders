@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "scss --watch src/assets/sass/style.scss:src/css/style.css & webpack serve --open --config webpack.dev.js",
+    "start": "sass --watch src/assets/sass/style.scss:src/css/style.css & webpack serve --open --config webpack.dev.js",
     "build": "node-sass src/assets/sass/style.scss > src/css/style.css && webpack --config webpack.prod.js"
   },
   "keywords": [],
@@ -14,6 +14,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "clean-webpack-plugin": "^3.0.0",
+    "node-sass": "^5.0.0",
     "sweetalert2": "^10.15.5",
     "webpack": "^5.21.1",
     "webpack-dev-server": "^3.11.2",
@@ -23,7 +24,6 @@
     "@babel/core": "^7.12.13",
     "@babel/polyfill": "^7.12.1",
     "babel-loader": "^8.2.2",
-    "node-sass": "^6.0.1",
     "webpack-cli": "^4.5.0"
   }
 }
