@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,45 +12,41 @@
 
     <!-- css -->
     <link rel="stylesheet" href="/css/style.css">
+
+    <!-- script -->
+    <script defer type="text/javascript" src="/js/script.js"></script>
+    <script defer type="text/javascript" src="/data/dados_produtos.js"></script>
+    <script defer type="text/javascript" src="/data/dados_clientes.js"></script>
 </head>
 <body class="bg-dark">
     <header class="container-fluid mt-2 border-bottom border-success">
-        <nav>
-            <div class="row d-flex">
-                <div class="col-xl-2">
-                    <img class="ms-2" src="/img/logo/mipz.png" alt="logo MipZ" width="100px" height="auto">
-                </div>
-                <div class="col-xl-8">
-                    <h1 class="text-center text-light">Gestão de Cadastro</h1>
-                </div>
-                <div class="col-xl-2">
-                    <button id="btn-login"><i class="bi bi-person-circle icon" id="icon-login" title="Login/Logout usuário"></i></button>
-                </div>
-            </div>
-        </nav>
+      <div class="row d-flex">
+          <div class="col-xl-2">
+              <img class="ms-2" src="/img/logo/mipz.png" alt="logo MipZ" width="100px" height="auto">
+          </div>
+          <div class="col-xl-8">
+              <h1 class="text-center text-light">Gestão de Cadastro</h1>
+          </div>
+          <div class="col-xl-2">
+              <button id="btn-login"><i class="bi bi-person-circle icon" id="icon-login" title="Login/Logout usuário"></i></button>
+          </div>
+      </div>
     </header>
 
+    <!-- filtrar os dados -->
     <main class="container-fluid mt-4">
-        <!-- filtrar os dados -->
-        <div class="row d-flex">
-            <div class="col-xl-5"></div>
-            <div class="col-xl-2 pe-0">
-                <form action="" method="GET">
-                    <div class="form-floating">
-                        <select class="form-select select" id="floatingSelect" aria-label="Floating label select example">
-                            <option value="0" selected></option>
-                            <option value="1">Produtos</option>
-                          <option value="2">Cliente</option>
-                        </select>
-                        <label for="floatingSelect">Escolha um item</label>
-                      </div>
-                </form>
-            </div>
-            <div class="col-xl-2 ms-0 p-0">
-                <button class="btn" id="btn-carregar-dados">Carregar dados</button>
-            </div>
-            <div class="col-xl-4"></div>
+      <div class="row d-flex">
+        <div class="col-xl-5"></div>
+        <div class="col-xl-2 pe-0">
+          <form action="/lista_dados.html" method="get">
+            <button type="submit" class="btn-produtos" value="1" onclick="produtos()">Produtos</button></a>
+            <button type="submit" class="btn-clientes" value="2">Clientes</button></a>
+          </form>
         </div>
+        <div class="col-xl-2 ms-0 p-0">
+            <button class="btn" id="btn-carregar-dados">Carregar dados</button>
+        </div>
+      </div>
     </main>
      <!-- footer -->
      <footer class="container-fluid border-top border-bottom border-success mb-4">
