@@ -11,12 +11,12 @@
 
 .icon:hover{
     color: chartreuse;
-    transition: 1.5s;
+    transition: 1s;
 }
 
 .icon:not(hover){
     color: white;
-    transition: 1.5s;
+    transition: 1s;
 }
 
 select:focus,
@@ -28,43 +28,120 @@ button:focus{
 }
 
 /* header */
-#btn-login{
-    background: transparent;
-    border: transparent;
-    padding: 0;
-    margin: 0;
+#logo{
+    width: 100px; 
+    height: "auto";
 }
 
-#icon-login{
-    font-size: 2rem;
+#logo:hover{
+    filter: grayscale(70%);
 }
 
 /* carregar dados */
-.btn-produtos,
-.btn-clientes{
+#select{
     background: black;
     color: chartreuse;
     border: 2px solid chartreuse;
     border-radius: 15px;
     height: 3rem;
-    width: 45%;
 }
 
 option{
-    color: black;
+    color: chartreuse;
+    border-radius: 15px;
 }
 
-label{
-    color: red
+#btn-carregar-dados{
+    background: black;
+    color: chartreuse;
+    border: 2px solid chartreuse;
+    border-radius: 15px;
+    height: 3rem;
+    width: 15%;
 }
 
-
-
-
-
-/* footer */
-footer{
-    margin-top: 300px;
+#btn-carregar-dados:focus{
+    border: 2px solid white;
+    color: white;
 }
 
+h1:hover{
+    color: chartreuse;
+    transition: 1s;
+}
+
+h1:not(hover){
+    color: white;
+    transition: 1s;
+}
+
+/* tables */
+th{
+    font-size: .75rem;
+}
+
+.enderecos-clientes{
+    background: transparent;
+    border: transparent;
+}
+
+.icon-endereco{
+    font-size: 1.2rem;
+}
+
+.div-enderecos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#label-enderecos{
+    color: chartreuse;
+    padding-left: 2%;
+}
+
+.msg{
+    position: absolute;
+    padding: 0;
+    width: 25%;
+    top: 8%;
+    left: 70%;
+    color: chartreuse;
+}
+
+p{
+    margin: 0;
+    color: chartreuse;
+}
+
+.i-tel-fixo,
+.i-tel-cel,
+.i-tel.email{
+    font-size: 1.2rem;
+}
+
+h4{
+    width: 8%;
+}
+
+h4:hover{
+    color: chartreuse;
+    transition: 1s;
+}
+
+h4:not(hover){
+    color: white;
+    transition: 1s;
+}
+
+.row-table:hover{
+    background: rgba(103, 105, 105, 0.295);
+}
+
+.icon-up{
+    position: absolute;
+    left: 90%;
+    top: 136%;
+    font-size: 1.2rem;
+}
 
