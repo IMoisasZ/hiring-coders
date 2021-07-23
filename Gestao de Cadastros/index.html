@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang="en">
   <head>
       <meta charset="UTF-8">
@@ -92,17 +93,123 @@
               <a href="https://linkedin/mizp" title="linkedin: linkedin.com/mizp"><i class="bi bi-linkedin fs-4 icon ms-3" id="icon-linkedin"></i></a>
             </address>
           </div>
+=======
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- script -->
+    <script defer type="text/javascript" src="/js/script.js"></script>
+    <script defer type="text/javascript" src="/data/dados_produtos.js"></script>
+    <script defer type="text/javascript" src="/data/dados_clientes.js"></script>
+  </head>
+  <body class="bg-dark">
+    <header class="container-fluid mt-2 border-bottom border-success" id="filtrar">
+      <div class="row d-flex">
+        <div class="col-xl-2">
+            <a href="/index.html"><img class="ms-2" src="/img/logo/mipz.png" alt="logo MipZ" id="logo"></a>
+>>>>>>> 7d4da54f310c6772d90042f54d549f76ffcb3015
         </div>
-        <div class="row">
-          <div>
-            <p class="cadastrar-index">Ainda não está cadastrado para receber nossas promoções? <a href="/index.html" class="aqui-index">Clique aqui</a> e cadastre-se!</p>
+        <div class="col-xl-8">
+            <h1 class="text-center">Gestão de Cadastro</h1>
+        </div>
+      </div>
+    </header>
+
+    <!-- filtrar os dados -->
+    <main class="container-fluid mt-4">
+      <div class="row d-flex text-center">
+        <div class="col-xl-12 pe-0 d-flex justify-content-center">
+          <select name="itens" id="select">
+            <option value="0">Escolha um item da lista</option>
+            <option value="1">Cliente</option></a>
+            <option value="2">Produtos</option></a>
+          </select>
+          <div class="div-enderecos">
+            <label class="text-center" for="enderecos" id="label-enderecos">Mostrar endereços?</label>
+            <input type="checkbox" id="enderecos" value="">
           </div>
         </div>
-        <div class="row d-flex justify-content-center m-0">
-          <div class="col-xl-12">
-            <p class="text-center">Copyright &copy; 2021 MizP</p>
-          </div>
-        </div>
+<<<<<<< HEAD
     </footer>
+=======
+        <div class="msg"></div>
+      </div>
+
+      <!-- tabelas -->
+      <!-- tabela produtos -->
+      <div class="col-xl-12 mt-4" id="tabela-produtos">
+        <table class="table border-success">
+          <thead>
+            <tr class="text-uppercase bg-gradient">
+              <th class="text-center" scope="col">ID</th>
+              <th class="text-center" scope="col">Categoria</th>
+              <th class="text-center" scope="col">Subcategoria</th>
+              <th class="text-center" scope="col">Descrição</th>
+              <th class="text-center" scope="col">Fabricante</th>
+              <th class="text-center" scope="col">Qtde</th>
+              <th class="text-center" scope="col">Preço</th>
+            </tr>
+          </thead>
+          <tbody id="itens-tabela-produtos"></tbody>
+        </table>
+      </div>
+  
+      <!-- tabela clientes -->
+      <div class="col-xl-12 mt-4" id="tabela-clientes">
+        <table class="table border-success">
+          <thead>
+            <tr class="text-uppercase bg-gradient">
+              <th class="text-center" scope="col">ID</th>
+              <th class="text-center" scope="col">Nome</th>
+              <th class="text-center" scope="col">Sobrenome</th>
+              <th class="text-center" scope="col">Sexo</th>
+              <th class="text-center" scope="col">Data de nascimento</th>
+              <th class="text-center" scope="col">CPF</th>
+              <th class="text-center" scope="col">RG</th>
+              <th class="text-center" scope="col">Profissão</th>
+              <th class="text-center" scope="col"><i class="bi bi-telephone-fill icon i-tel-fixo" title="Telefone fixo"></i></th>
+              <th class="text-center" scope="col"><i class="bi bi-phone-fill icon i-tel-fixo" title="Telefone celular"></i></th>
+              <th class="text-center" scope="col"><i class="bi bi-envelope icon i-tel-cel" title="Email"></i></th>
+              <th class="text-center" scope="col">Data inclusão</th>
+            </tr>
+          </thead>
+          <tbody id="itens-tabela-clientes"></tbody>
+        </table>
+      </div>
+
+      <!-- tabela endereços -->
+      <div class="col-xl-12 mt-4 mb-4" id="tabela-enderecos">
+        <h4 class="d-flex">Endereços</h4>
+        <a href="#filtrar"><i class="bi bi-arrow-up-circle-fill icon icon-up"></i></a>
+        <table class="table border-success">
+          <thead>
+            <tr class="text-uppercase bg-gradient">
+              <th class="text-center" scope="col">ID</th>
+              <th class="text-center" scope="col">ID Cliente</th>
+              <th class="text-center" scope="col">Endereço</th>
+              <th class="text-center" scope="col">Numero</th>
+              <th class="text-center" scope="col">Complemento</th>
+              <th class="text-center" scope="col">Bairro</th>
+              <th class="text-center" scope="col">Cidade</th>
+              <th class="text-center" scope="col">Estado</th>
+              <th class="text-center" scope="col">Cep</th>
+            </tr>
+          </thead>
+          <tbody id="itens-tabela-enderecos"></tbody>
+        </table>
+      </div>
+    </main> 
+>>>>>>> 7d4da54f310c6772d90042f54d549f76ffcb3015
   </body>
 </html>
