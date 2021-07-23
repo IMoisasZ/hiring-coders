@@ -1,60 +1,28 @@
-/* padrão */
-*{
-    margin: 0;
-    padding: 0;
-    color: white;
-}
-
-.icon{
-    color: white;
-}
-
-.icon:hover{
+#btn-carregar-dados{
+    background-color: black;
+    border: 2px solid chartreuse;
     color: chartreuse;
-    transition: 1.5s;
+    border-radius: 15px 15px 15px 15px;
+    padding: 0.4%;
+    margin-left: .5%;
 }
 
-.icon:not(hover){
-    color: white;
-    transition: 1.5s;
+#select{
+    background-color: black;
+    border: 2px solid chartreuse;
+    color: chartreuse;
+    border-radius: 15px 15px 15px 15px;
+    padding: 0.4%;
+    margin-right: .5%;
 }
 
-select:focus,
-input:focus,
-button:focus{
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
-}
-
-/* header */
-#btn-login{
-    background: transparent;
-    border: transparent;
+#dados{
+    display: flex;
     padding: 0;
     margin: 0;
+    justify-content: center;
+    align-items: center;
 }
-
-#icon-login{
-    font-size: 2rem;
-}
-
-/* carregar dados */
-.select{
-    border-radius: 15px 15px 0 0px;
-    color: black;
-    border: 0px transparent;
-}
-
-option{
-    color: black;
-}
-
-label{
-    color: red
-}
-
-
 
 
 

@@ -32,6 +32,5 @@ let listaProdutos = [
         {id: 23, categoria: "Brinquedos", subcategoria: "Pula Pula", descricao: "Pula Pula Inflável Infantil Com Cesta De Basquete Intex", fabricante: "Intex", qtde:100, imagem: '/img/brinquedos/pula_pula/pula_pula_1.jpg', preco: "R$ 649,99"},
         {id: 24, categoria: "Brinquedos", subcategoria: "Piscina de Bolinha", descricao: "Piscina de Bolinhas Premium - Medidas 1,10m X 1,10m - Acompanha 500 Bolinhas TOP Coloridas", fabricante: "Lacuca Brinquedos", qtde:100, imagem: '/img/brinquedos/piscina_bolinha/piscina_bolinha.jpg', preco: "R$ 789,00"},
         {id: 25, categoria: "Brinquedos", subcategoria: "Piscina de Bolinha", descricao: "Piscina de Bolinhas 3m com 5.000 Bolinhas 1,90 X 3,00(L) X 3,00 (A)", fabricante: "Lacuca Brinquedos", qtde:100, imagem: '/img/brinquedos/piscina_bolinha/piscina_bolinha_1.jpg', preco: "R$ 3.499,00"},
-        {id: 26, categoria: "Brinquedos", subcategoria: "Piscina de Bolinha", descricao: "Piscina De Bolinha + 200 Bolinhas + Piscina De Água 70 L", fabricante: "Company kids", qtde:100, imagem: '/img/brinquedos/piscina_bolinha/piscina_bolinha_2.jpg', preco: "R$ 399,49"},
-
-    ]
+        {id: 26, categoria: "Brinquedos", subcategoria: "Piscina de Bolinha", descricao: "Piscina De Bolinha + 200 Bolinhas + Piscina De Água 70 L", fabricante: "Company kids", qtde:100, imagem: '/img/brinquedos/piscina_bolinha/piscina_bolinha_2.jpg', preco: "R$ 399,49"}
+]
